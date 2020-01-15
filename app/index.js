@@ -9,8 +9,6 @@ const minHand = document.getElementById("minHand");
 const minHandOutline = document.getElementById("minHandOutline");
 const secHand = document.getElementById("secHand");
 
-
-// Update the <text> element every tick with the current time
 clock.ontick = () => {
   let time = new Date();
   let hours = time.getHours();
