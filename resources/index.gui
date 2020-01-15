@@ -1,5 +1,4 @@
 <svg class="background">
-<!--   <rect id="clockBackground" width="100%" height="100%" x="0" y="0" /> -->z
   <g id="hourHandOutline" pointer-events="visible" transform="translate(50%,50%)">
     <rect class="hoursOutline" x="$-5" y="-65+8" width="10" height="65+7"/>
     <circle class="hoursOutline" cx="$-5" cy="-65+7" r="5" />
