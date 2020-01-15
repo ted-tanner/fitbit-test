@@ -1,0 +1,38 @@
+.background {
+  viewport-fill: orange;
+}
+
+/* #clockBackground {
+  fill: #000000;
+} */
+
+.hoursOutline {
+  fill: #000000;
+  opacity: 0.75;
+}
+
+.hours {
+  fill: #bababa;
+}
+
+.minsOutline {
+  fill: #000000;
+  opacity: 0.75;
+}
+
+.mins {
+  fill: #bababa; 
+}
+
+.secs {
+  fill: #d40000;  
+}
+
+#centerPivotOutline {
+  fill: #000000;
+  opacity: 0.5;
+}
+
+#centerPivot {
+  fill: #ffffff;
+}

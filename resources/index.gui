@@ -1,0 +1,24 @@
+<svg class="background">
+<!--   <rect id="clockBackground" width="100%" height="100%" x="0" y="0" /> -->z
+  <g id="hourHandOutline" pointer-events="visible" transform="translate(50%,50%)">
+    <rect class="hoursOutline" x="$-5" y="-65+8" width="10" height="65+7"/>
+    <circle class="hoursOutline" cx="$-5" cy="-65+7" r="5" />
+  </g>
+  <g id="hourHand" pointer-events="visible" transform="translate(50%,50%)">
+    <rect class="hours" x="$-4" y="-65+7" width="8" height="65+7" />
+    <circle class="hours" cx="$-4" cy="-65+7" r="4" />
+  </g>
+  <g id="minHandOutline" pointer-events="visible" transform="translate(50%,50%)">
+    <rect class="minsOutline" x="$-4" y="-110+8" width="8" height="110+7" />
+    <circle class="minsOutline" cx="$-4" cy="-110+7" r="4" />
+  </g>
+  <g id="minHand" pointer-events="visible" transform="translate(50%,50%)">
+    <rect class="mins" x="$-3" y="-110+7" width="6" height="110+7" />
+    <circle class="mins" cx="$-3" cy="-110+7" r="3" />
+  </g>
+  <g id="secHand" pointer-events="visible" transform="translate(50%,50%)">
+    <rect class="secs" x="$-1" y="-115+10" width="2" height="115+10" />
+  </g>
+  <circle id="centerPivotOutline" cx="50%" cy="50%" r="7" />
+  <circle id="centerPivot" cx="50%" cy="50%" r="6" />
+</svg>
