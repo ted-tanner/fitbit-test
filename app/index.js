@@ -21,7 +21,6 @@ clock.ontick = () => {
   let minutesAngle = 6 * mins + ~~(secs / 10); //~~ Does the equivalent of Math.Floor in
   let hoursAngle = 30 * hours + 0.5 * mins;    //this case, but much more quickly
 
-
   hourHand.groupTransform.rotate.angle = hoursAngle;
   hourHandOutline.groupTransform.rotate.angle = hoursAngle;
   minHand.groupTransform.rotate.angle = minutesAngle;
